@@ -1,0 +1,9 @@
+[package]
+name = "lnbootcamp-backend"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rocket = { version = "0.5.1", features = ["tls"] }
+serde = { version = "1.0.203", features = ["derive"] }
+toml = "0.8.14"
